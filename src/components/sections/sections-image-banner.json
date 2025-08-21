@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_sections_image_banners",
+  "info": {
+    "displayName": "sections.image-banner"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "alt": {
+      "type": "string"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_navigation_items",
+  "info": {
+    "displayName": "navigation-item"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "url": { "type": "string" }
+  }
+}
+
+

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_sections_lorem_ipsums",
+  "info": {
+    "displayName": "sections.lorem-ipsum"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light",
+        "transparent"
+      ],
+      "default": "dark"
+    }
+  },
+  "config": {}
+}

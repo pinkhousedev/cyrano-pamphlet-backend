@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_sections_text_images",
+  "info": {
+    "displayName": "sections.text-image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "richText": {
+      "type": "blocks"
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.shared-feature-item",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reversed": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

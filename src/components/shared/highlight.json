@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_highlight_items",
+  "info": {
+    "displayName": "highlight"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "linkText": { "type": "string" },
+    "linkUrl": { "type": "string" }
+  }
+}
+
+

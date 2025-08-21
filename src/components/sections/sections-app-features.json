@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_sections_app_features",
+  "info": {
+    "displayName": "sections.app-features"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "App Features"
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.shared-feature-item",
+      "repeatable": true,
+      "max": 6
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light",
+        "transparent"
+      ],
+      "default": "dark"
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "grid",
+        "list",
+        "cards"
+      ],
+      "default": "grid"
+    }
+  },
+  "config": {}
+}

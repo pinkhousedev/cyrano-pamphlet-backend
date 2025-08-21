@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_sections_android_heros",
+  "info": {
+    "displayName": "sections.android-hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "GET THE ANDROID APP"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Download our Android app for the best mobile experience."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Download for Android"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "backgroundGradient": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "blue",
+        "green"
+      ],
+      "default": "purple"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_sections_sections_smart_clients",
+  "info": {
+    "displayName": "sections.smart-client"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.shared-feature-item",
+      "repeatable": true,
+      "max": 4
+    },
+    "illustrationImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "required": true
+    },
+    "reversed": {
+      "type": "boolean",
+      "default": false
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Get Started"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "/apply"
+    }
+  },
+  "config": {}
+}

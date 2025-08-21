@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_footer_links",
+  "info": {
+    "displayName": "footer-link"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "url": { "type": "string" },
+    "category": { "type": "string" }
+  }
+}
+
+

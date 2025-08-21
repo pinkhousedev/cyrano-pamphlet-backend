@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_sections_flip_sections",
+  "info": {
+    "displayName": "sections.flip-section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Sign Up for The Hardware"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "/apply"
+    },
+    "sectionImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "required": true
+    },
+    "reversed": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

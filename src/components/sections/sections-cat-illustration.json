@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_sections_cat_illustrations",
+  "info": {
+    "displayName": "sections.cat-illustration"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reversed": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

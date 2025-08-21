@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_sections_sections_dashboards",
+  "info": {
+    "displayName": "sections.dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "required": true
+    },
+    "phoneImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "required": true
+    },
+    "phonePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "center"
+    },
+    "leftTitle": {
+      "type": "string"
+    },
+    "leftDescription": {
+      "type": "text"
+    },
+    "rightTitle": {
+      "type": "string"
+    },
+    "rightDescription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

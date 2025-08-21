@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_sections_sections_download_ctas",
+  "info": {
+    "displayName": "sections.download-cta"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Ready to Get Started?"
+    },
+    "description": {
+      "type": "text",
+      "default": "Download our Android app now and experience the difference."
+    },
+    "primaryButtonText": {
+      "type": "string",
+      "default": "Download for Android"
+    },
+    "primaryButtonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonUrl": {
+      "type": "string"
+    },
+    "appStoreBadge": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "googlePlayBadge": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light",
+        "gradient"
+      ],
+      "default": "gradient"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": "Simple pages for testing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "pageType": {
+      "type": "enumeration",
+      "default": "home",
+      "enum": [
+        "home",
+        "userType1",
+        "userType2",
+        "career",
+        "androidApp"
+      ]
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.sections-ticker",
+        "sections.sections-text-image",
+        "sections.sections-testimonials",
+        "sections.sections-smart-client",
+        "sections.sections-lorem-ipsum",
+        "sections.sections-image-banner",
+        "sections.sections-footer-image",
+        "sections.sections-flip-section",
+        "sections.sections-feature-grid",
+        "sections.sections-download-cta",
+        "sections.sections-dashboard",
+        "sections.sections-cat-illustration",
+        "sections.sections-app-features",
+        "sections.sections-android-hero",
+        "sections.section-hero",
+        "sections.career-vision",
+        "sections.career-job-listings",
+        "sections.career-highlights",
+        "sections.dynamic-zone",
+        "sections.apply-form"
+      ]
+    }
+  }
+}

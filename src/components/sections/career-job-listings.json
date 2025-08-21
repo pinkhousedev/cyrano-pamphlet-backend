@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_career_job_listings",
+  "info": {
+    "displayName": "sections.dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "phonePosition": {
+      "type": "component",
+      "component": "shared.job-position",
+      "repeatable": true
+    },
+    "phoneImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

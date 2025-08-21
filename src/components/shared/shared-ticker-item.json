@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_shared_ticker_items",
+  "info": {
+    "displayName": "shared.ticker-item"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

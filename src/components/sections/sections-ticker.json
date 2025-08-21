@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_sections_tickers",
+  "info": {
+    "displayName": "sections.ticker"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "component": "shared.shared-ticker-item",
+      "repeatable": true
+    },
+    "speed": {
+      "type": "integer"
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "forward",
+        "reverse"
+      ]
+    }
+  },
+  "config": {}
+}
